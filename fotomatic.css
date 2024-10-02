@@ -563,7 +563,7 @@ ol li a{
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 700px){
+@media only screen and (max-width: 1200px) and (min-width: 700px) and (orientation: landscape){
     /*FOR TABLAT AND LANDSCAPE*/
 
     /*HEADER SECTION*/
