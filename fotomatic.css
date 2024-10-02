@@ -320,7 +320,7 @@ ol li a{
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 700px) , (orientation: portrait){
+@media only screen and (max-width: 800px) , (orientation: portrait){
     
     /*FOR PHONES*/
     
@@ -579,7 +579,7 @@ ol li a{
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 700px) and (orientation: landscape){
+@media only screen and (max-width: 1800px) and (min-width: 1000px) and (orientation: landscape){
     /*FOR TABLAT AND LANDSCAPE*/
 
     /*HEADER SECTION*/
@@ -778,7 +778,7 @@ ol li a{
 
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1800px){
     #box2 #box2-logo{
         display: none;
         margin-left: 0px;
