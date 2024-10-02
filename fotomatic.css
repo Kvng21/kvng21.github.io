@@ -328,7 +328,7 @@ ol li a{
     
     /*NAVBAR*/
     #navbar{
-        height: 3.2rem;
+        height: 3.4rem;
     }
   
     #box1 p{
@@ -358,16 +358,15 @@ ol li a{
     }
 
     .fa-brands.fa-fonticons{
-        margin-right: 80px;
+        margin-right: 250px;
     }
 
     .fa-solid .fa-user-group{
-        margin-right: 150px;
-        width: 100%;
+        margin-right: 100px;
     }
 
     #box2-logo button{
-        margin-left: 70px;
+        margin-left: 200px;
     }    
 
     /*HEADER BACKGROUND IMAGE*/
@@ -507,6 +506,7 @@ ol li a{
     #bottom-banner #bottom-img-container{
         justify-self: flex-end;
         height: auto;
+        width: 100%;
     }
 
     #bottom-img-container{
