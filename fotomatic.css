@@ -320,7 +320,7 @@ ol li a{
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 800px) , (orientation: portrait){
+@media only screen and (max-width: 1000px) , (orientation: portrait){
     
     /*FOR PHONES*/
     
