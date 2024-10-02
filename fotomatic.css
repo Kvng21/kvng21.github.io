@@ -43,7 +43,7 @@ img{
 #navbar{
     display: flex;
     width: 100%;
-    height: 85px;
+    height: 5.3rem;
     align-items: center;
     background-color: white;
     position: fixed;
@@ -327,6 +327,10 @@ ol li a{
     /*HEADER SECTION*/
     
     /*NAVBAR*/
+    #navbar{
+        height: 3.2rem;
+    }
+  
     #box1 p{
         display: none;
     }  
@@ -369,9 +373,9 @@ ol li a{
     /*HEADER BACKGROUND IMAGE*/
 
     #text-header-img{
-        width: 70%;
-        margin-left: 3.8rem;
-        margin-top: 2.2rem;
+        width: 80%;
+        margin-left: 3.5rem;
+        margin-top: 2.8rem;
         height: 30%;
     }
     
@@ -380,6 +384,7 @@ ol li a{
     }
     
     #text-header-img h2{ 
+        margin-top: 1rem; 
         font-size: 2rem;
         font-weight: normal;
     }
@@ -401,9 +406,9 @@ ol li a{
     }
 
     #header-background-img{
-        background-size: 950px;
+        background-size: 1900px;
         background-position: right;
-        height: 600px;   
+        height: 900px;   
         width: 100%;
         background-color:white;
         margin-top: 0px;
@@ -414,20 +419,30 @@ ol li a{
     /*MIDDLE IMAGES*/
     #middle-container{
       margin-top: 0px;
+      height: 100%;
     }
 
     #middle-img-container{
         flex-direction: column;
+        height: 100%;
     }
 
     #middle-img-container .middle-img-boxs{
         width: 100%;
     }
+  
+    #middle-img-container .middle-img-boxs img{
+        height: 600px;
+    }
 
     #middle-img-container #middle-box1{
         background-color: #f3f3f3;
+        margin-bottom: 150px;
     }
-
+  
+    middle-img-container #middle-box2{
+        margin-bottom: 150px;
+    }
 
     .middle-img-boxs .middle-img-text{
         width: 60%;
@@ -465,6 +480,7 @@ ol li a{
     #bottom-container{
         height: 100%;
         overflow: hidden;
+        margin-top: 200px;
     }
 
     #bottom-banner{
@@ -473,7 +489,7 @@ ol li a{
     }
 
     #bottom-banner #bottom-head-text{
-        margin-top: 240px;
+        margin-top: 100px;
         justify-self: flex-end;
         height: auto;
         margin-bottom: 50px;
@@ -516,7 +532,7 @@ ol li a{
     }
 
     #last-bottom-text #last-text-container img{
-        margin-left: 90px;
+        margin-left: 15.8rem;
     }
 
 
