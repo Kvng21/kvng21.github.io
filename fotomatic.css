@@ -320,7 +320,7 @@ ol li a{
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     
     /*FOR PHONES*/
     
@@ -533,7 +533,7 @@ ol li a{
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
     
     /*FOR PHONES*/
     
@@ -563,7 +563,7 @@ ol li a{
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 600px){
+@media only screen and (max-width: 1400px) and (min-width: 800px){
     /*FOR TABLAT AND LANDSCAPE*/
 
     /*HEADER SECTION*/
@@ -762,7 +762,7 @@ ol li a{
 
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1400px){
     #box2 #box2-logo{
         display: none;
         margin-left: 0px;
