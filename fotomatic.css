@@ -328,15 +328,12 @@ ol li a{
     
     /*NAVBAR*/
     #navbar{
-        height: 3.4rem;
+        height: 3.8rem;
     }
   
     #box1 p{
         display: none;
     }  
-    #navbar{
-        height: 3rem;
-    }
 
     #box2 nav{
         display: none;
@@ -355,6 +352,7 @@ ol li a{
     #box2 #box2-logo{
         width: 100%;
         justify-content:flex-end;
+        height: 100%;
     }
 
     .fa-brands.fa-fonticons{
@@ -367,6 +365,10 @@ ol li a{
 
     #box2-logo button{
         margin-left: 200px;
+        height: 35px;
+        margin-top: 5px;
+        width: 90px;
+        font-size: 1.2rem;
     }    
 
     /*HEADER BACKGROUND IMAGE*/
