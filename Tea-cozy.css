@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    opacity: 0.9;
+    color: seashell;
+}
+
+a:hover{
+   opacity: 0.6;
+}
+
+h4{
+    font-weight: 100;
+}
+/*HEADER*/
+#head-banner{
+    display: flex;
+}
+
+/*NAVBAR SECTION UNDER HEADER*/
+#head-navbar{
+    display: flex;
+    position: fixed;
+    align-self: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    align-items: center;
+    width: 100%;
+    z-index: 10;    
+    opacity: 100%;
+}
+
+#head-navbar img{
+    opacity: 0.9;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+#navbar{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#navbar ul{
+    list-style-type: none;
+}
+
+#navbar li{
+    float: left;
+    opacity: 0.9;
+    margin-right: 20px;
+}
+
+
+/*BACKGROUND IMAGE SECTION UNDER HEADER*/
+
+/*NOTE FLEX-BANNER IS  USED FOR HEAD-BACKGROUND(LINE 31 HTML), MIDDLE-BANNER(LINE 48 HTML) AND bottom-banner(LINE 98 HTML) TO POSTION THEM.*/
+.flex-banner{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#head-background #background-img{
+    display: flex;
+    align-items: center;
+    background-image: URL(images/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1420px;
+    justify-content: center;
+}
+
+/*NOTE TEXT-POS IS USED FOR header-img-writing(LINE 35 HTML), middle-header-text(LINE 50 HTML)*/
+.text-pos{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#header-img-writing{
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+
+#header-img-writing h2{
+    margin-bottom: 15px;
+}
+
+/*MAIN SECTION*/
+
+/*MIDDLE */
+#MIDDLE-BANNER{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#middle-header-text{
+    margin-top: 50px;
+    width: 1000px;
+}
+
+#middle-header-text h2{
+    margin-bottom: 15px;
+}
+
+/*MIDDLE IMAGES*/
+#middle-imgs{
+    display: inline-flex;
+    width: 1000px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.middle-img-box{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.middle-img-box h4{
+    margin: 10px 0 25px 0;
+}
+
+
+.middle-img-box img{
+    height: 200px;
+    width: 300px;
+}
+
+/*BOTTOM*/
+
+/*NOTE BOTTOM BANNER IS THE CONTAINER FOR BOTH BOTTOM BACKGROUND IMG(LINE 101 HTML) AND BOTTOM INFO(LINE 137 HTML).*/
+#bottom-banner{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*BOTTOM BACKGROUND IMAGE SECTION*/
+#bottom-background-img{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    background-image:url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom-background-box{
+    display: flex;
+    margin-top: 15px;
+}
+    
+.bottom-img-box{
+    flex-grow: 1;
+    line-height: 3;
+    text-align: center;
+    width: 300px;
+    opacity:1;
+    height: auto;
+    background-color: black;
+    text-overflow: scroll;
+}
+
+
+#right-box{
+    margin-right: 40px;
+}
+
+#middle-box{
+    margin-right: 40px;
+}
+
+#bottom-info{
+    margin-top: 5px;
+    height: 200px;
+}
+
+#bottom-info h2, h5{
+     margin-bottom: 30px;
+}
+
+#copyright{
+    margin-left: 20px;
+}
